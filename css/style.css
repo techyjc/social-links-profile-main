@@ -74,6 +74,12 @@ ul {
     width: 85px;
 }
 
+.profile-social-links {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+}
+
 .profile-links {
     display: block;
     width: 100%;
