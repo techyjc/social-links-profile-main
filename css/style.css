@@ -34,6 +34,7 @@ body {
     font-weight: var(--ff-w-400);
     font-size: var(--pri-ff-size);
     justify-content: center;
+    margin: 0px;
     min-height: 100vh;
     min-width: var(--mobile);
     position: relative;
@@ -58,6 +59,13 @@ ul {
     justify-items: center;
     min-width: 350px;
     padding: 1rem 1.5rem;
+}
+
+.profile-head {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
 .profile-avatar {
